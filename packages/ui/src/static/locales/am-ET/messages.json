@@ -1,0 +1,117 @@
+{
+    "LOADING": "በመጠቀም ላይ...",
+    "MENU": {
+      "QUEUES": "ኮድፕያት",
+      "SEARCH_INPUT_PLACEHOLDER": "ተመሳሳይ ኮድፕያት ማፅዳት",
+      "PAUSED": "ያዘጋጁ"
+    },
+    "DASHBOARD": {
+      "JOBS_COUNT_one": "{{count}} ስለም",
+      "JOBS_COUNT": "{{count}} እትም"
+    },
+    "JOB": {
+      "NOT_FOUND": "ስህተት አልተገኘም",
+      "STATUS": "ሁኔታ: {{status}}",
+      "ADDED_AT": "በጊዜ መጨመር",
+      "WILL_RUN_AT": "ተጠናቋል በ",
+      "DELAYED_FOR": "ተጠንቀቀ ለ",
+      "PROCESS_STARTED_AT": "አሁን ማህበረሰብ በ",
+      "FAILED_AT": "ተጨማሪ በ",
+      "FINISHED_AT": "አስተመረቀ በ",
+      "ATTEMPTS": "የምድብ #{{attempts}}",
+      "REPEAT": "ድጋሜ {{count}}",
+      "REPEAT_WITH_LIMIT": "$t(JOB.REPEAT) / {{limit}}",
+      "DURATION": {
+        "SECS": "{{duration}} ሰከንዶች",
+        "MILLI_SECS": "{{duration}} ሚሊሻንዶች"
+      },
+      "SHOW_DATA_BTN": "ዳታ እንደአሳይ",
+      "SHOW_OPTIONS_BTN": "አማራጭ እንደአሳይ",
+      "SHOW_ERRORS_BTN": "ስህተቶች እንደአሳይ",
+      "NA": "አይደለም",
+      "LOGS": {
+        "FILTER_PLACEHOLDER": "አጽዕኖዎች"
+      },
+      "ACTIONS": {
+        "PROMOTE": "ተጠንቀቅ",
+        "CLEAN": "አጽናኝ",
+        "RETRY": "ደግፎ አድርግ"
+      },
+      "TABS": {
+        "DATA": "መረጃ",
+        "OPTIONS": "አማራጭዎች",
+        "LOGS": "ሎግዎች",
+        "ERROR": "ስህተት"
+      }
+    },
+    "QUEUE": {
+      "NOT_FOUND": "ኮድፕያ አልተገኘም",
+      "ACTIONS": {
+        "MODAL_TITLE": "",
+        "RETRY_ALL": "ሁኔታ አድርግ ሁኔታዎች አቅርቦ",
+        "PROMOTE_ALL": "ተጠንቀቅ ሁኔታዎች አቅርቦ",
+        "CLEAN_ALL": "ሁኔታዎችን አጽንኩ",
+        "RESUME": "በተመከር መነሻ",
+        "PAUSE": "ተጠንቀቅ መነሻ",
+        "EMPTY": "ተቀን",
+        "RETRY_ALL_CONFIRM_MSG": "እባኮት እንደምንሞት ተጠንቀቅ {{status}} ሁኔታዎች ይህን ችግር ነው?",
+        "CLEAN_ALL_CONFIRM_MSG": "እባኮት እንደምንሞት ሁኔታዎች አጽንኩላቸው ይህን ችግር ነው?",
+        "PROMOTE_ALL_CONFIRM_MSG": "እባኮት እንደምንሞት ተጠንቀቅ የተቀደመ ሁኔታዎች ይህን ችግር ነው?",
+        "PAUSE_QUEUE_CONFIRM_MSG": "እባኮት እንደምንሞት ኮድፕያ በተጠንቀቅ እንደምንሞት ይህን ችግር ነው?",
+        "EMPTY_QUEUE_CONFIRM_MSG": "እባኮት እንደምንሞት ኮድፕያዎችን ተቀን እንደምንሞት ይህን ችግር ነው?",
+        "RESUME_QUEUE_CONFIRM_MSG": "እባኮት እንደምንሞት ኮድፕያ በተመከር እንደምንሞት ይህን ችግር ነው?"
+      },
+      "STATUS": {
+        "LATEST": "መጨረሻ",
+        "ACTIVE": "መረጃው ያለ",
+        "WAITING": "መጠበቂያ",
+        "WAITING-CHILDREN": "የተመነሻ ያለው",
+        "PRIORITIZED": "የተቀደመ",
+        "COMPLETED": "ተጠንቀቅ",
+        "FAILED": "አልተሳካ",
+        "DELAYED": "ተጠንቀቅ",
+        "PAUSED": "ተጠንቀቅ"
+      }
+    },
+    "CONFIRM": {
+      "DEFAULT_TITLE": "እርግጠኝ ነዎት ነዎት?",
+      "CONFIRM_BTN": "አረጋግጥ",
+      "CANCEL_BTN": "ተመለስ"
+    },
+    "MODAL": {
+      "CLOSE_BTN": "ዝጋ"
+    },
+    "REDIS": {
+      "TITLE": "ረዲስ ዝርዝር",
+      "MEMORY_USAGE": "የምንዛሬ ጊዜ",
+      "PEEK_MEMORY": "የመከላከላ የምንዛሬ",
+      "FRAGMENTATION_RATIO": "የተያያዘ መጠቀሚ",
+      "CONNECTED_CLIENTS": "ገጠመኞች ተጠቃሚዎች",
+      "BLOCKED_CLIENTS": "ተጠቃሚዎች ተከሰተ",
+      "VERSION": "እትም",
+      "MODE": "መንገድ",
+      "OS": "ኦፊስ",
+      "UP_TIME": "በሊንክ ሰማዕት",
+      "ERROR": {
+        "MEMORY_USAGE": "ምንዛሬ መጠቀሚ ወደማይታዘዙ አልተሳካም"
+      }
+    },
+    "SETTINGS": {
+      "TITLE": "ቅኝቶች",
+      "POLLING_INTERVAL": "የምንዛሬ አካባቢ",
+      "POLLING_OPTIONS": {
+        "OFF": "የተጠናከረ",
+        "SECS": "{{count}} ሰከንዶች",
+        "MINS": "{{count}} ደቂቃዎች",
+        "MINS_one": "{{count}} ደቂቃ"
+      },
+      "DEFAULT_JOB_TAB": "የመረጃ ተቋማ",
+      "JOBS_PER_PAGE": "ሁለቱ የስልኩ ስም (1-50)",
+      "CONFIRM_QUEUE_ACTIONS": "ኮድፕያ ተጠንቀቅ ችግርዎት ያልተመረጠ?",
+      "CONFIRM_JOB_ACTIONS": "ስለምን ያልተጠናከረ ስልኩ ተጠንቀቅ ይኖር?",
+      "COLLAPSE_JOB_DATA": "የስልኩ መረጃ እንደአሳይ",
+      "COLLAPSE_JOB_OPTIONS": "የስልኩ አማራጭ እንደአሳይ",
+      "COLLAPSE_JOB_ERROR": "የስልኩ ስህተት እንደአሳይ"
+    }
+  }
+  
