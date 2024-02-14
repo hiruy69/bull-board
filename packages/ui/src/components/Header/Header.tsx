@@ -8,7 +8,7 @@ import s from './Header.module.css';
 export const Header = ({ children }: PropsWithChildren<any>) => {
   const uiConfig = useUIConfig();
   const logoPath = uiConfig.boardLogo?.path ?? getStaticPath('/images/logo.svg');
-  const boardTitle = uiConfig.boardTitle ?? 'Bull Dashboard';
+  const boardTitle = uiConfig.boardTitle ?? 'LMIS Dashboard';
 
   return (
     <header className={s.header}>
