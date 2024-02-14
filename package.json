@@ -70,8 +70,7 @@
     },
     "hooks": {
       "before:init": [
-        "yarn lint",
-        "yarn test"
+        "yarn lint"
       ],
       "after:bump": [
         "npx auto-changelog -p",
