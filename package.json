@@ -24,7 +24,7 @@
     "Erik Engervall <erik.engervall@gmail.com>",
     "felixmosh",
     "Dennis Snijder <dennis@snijder.io>",
-    "hiruy"
+    "hiruy "
   ],
   "workspaces": [
     "packages/*"
