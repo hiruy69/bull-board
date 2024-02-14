@@ -23,7 +23,8 @@
   "contributors": [
     "Erik Engervall <erik.engervall@gmail.com>",
     "felixmosh",
-    "Dennis Snijder <dennis@snijder.io>"
+    "Dennis Snijder <dennis@snijder.io>",
+    "hiruy"
   ],
   "workspaces": [
     "packages/*"
